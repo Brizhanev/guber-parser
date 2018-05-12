@@ -1,0 +1,20 @@
+{
+    "name": "brizhanev/guber-parser",
+    "type": "library",
+    "description": "Получаем список губернаторов субъектов РФ",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oleg Brizhanev",
+            "email": "mr.brizhanev@yandex.ru"
+        }
+    ],
+    "require": {
+        "electrolinux/phpquery": "^0.9.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "GuberParser\\": "src"
+        }
+    }
+}
